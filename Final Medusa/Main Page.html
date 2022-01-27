@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bitmango Test Managaer</title>
+        <link rel="shortcut icon" type="image/x-icon" href="bitmango icon.ico">
+        <h1 center style="background: #F9F7F6; border-left: 0.5em solid #f78529; padding: 0.5em;">Bitmango Test Manager</h1>
+        <style>h1{text-align:center;}</style>
+        <h2 style="border-radius: 5em; padding: 0.5em; background: #dcf1fb;">개발중입니다</h2>
+        <style>h2{text-align:center;}</style>
+        <link rel="stylesheet" href="style.css">
+        <body>
+            <form action="authentication.jsp" method="post">
+            <div>
+                <label for="name">ID</label>
+                <input id="id" type="text" name="id" onfocus="" placeholder="Enter Your ID" class="form_input"/> 
+                <div class="form_text_alert_padding">
+                    <div id="alert_ID" class="form_text_alert"></div>
+                </div>
+                <style>div{text-align:center;}</style>
+            </div>
+            <script src="login.js"></script>
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" id="pw" name="pw" onfocus="" placeholder="Enter Your Password" class="form_input">
+            </div>
+            <div>
+                <label for="area">소속</label>
+                <select name = "Publisher">
+                    <option value = "Python" selected>소속을 선택해주세요</option>
+                    <option value = "MATLAB">Bitmango</option>
+                    <option value = "HTML">Puzzle1Studio</option>
+                 </select>
+            </div>
+            <div>
+                <a href="Register Page.html"><input type="button" value="회원가입"></a>
+                <a href="Main Page2.html"><input type="button" value="로그인" onclick="create_id();"></a>
+            </div>
+          
+            <div id="snackbar"></div>
+            </form>
+        </body>
+    </head>
+</html>

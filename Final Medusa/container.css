@@ -1,0 +1,25 @@
+.header{
+    width : 100%;
+    height : 60px;
+    background-color: cornflowerblue;
+}
+
+.left-menu{
+    width : 10%;
+    height : 500px;
+    background-color: mediumaquamarine;
+    float : left;
+}
+
+.right-menu{
+    width : 90%;
+    height : 500px;
+    background-color: navy;
+    float : left;
+}
+
+.bottom{
+    width : 100%;
+    height : 40px;
+    background-color: gray;
+}
